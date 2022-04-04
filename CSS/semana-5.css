@@ -1,0 +1,109 @@
+html{
+    background-color: #272c36;
+    color: #ECDBBA;
+    font-size: 20;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    background-color: #191919;
+    margin-top: 0px;
+}
+
+body{
+    color: #ECDBBA;
+    margin: 0px;
+}
+
+.h1-cont{
+    align-items: center;
+    display: flex;
+    margin: auto;
+    max-height: 50px;
+    width: 960px;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h1 a{
+    color: #ECDBBA;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.selected{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie-poster-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.movie-poster{
+    border-radius: 5%;
+    height: 345px;
+    margin-bottom: 10px;
+}
+
+.movie-name{
+    font-weight: bold;
+    font-size: 24pt;
+    text-align: center;
+    margin: auto;
+    max-width: 231px;
+}
+
+.trailer-pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+iframe{
+    border-radius: 2%;
+    height: 345px;
+    margin-bottom: 10px;
+}
+
+.social-cine{
+    align-items: center;
+    display: flex;
+    height: 74px;
+    justify-content: center;
+}
+
+.social-logo{
+    width: 2.4rem;
+    margin: 0px 10px 0 10px;
+    
+}
+
+.sin-comm{
+    text-align: justify;
+    margin-top: 0.4em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 0.4em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
